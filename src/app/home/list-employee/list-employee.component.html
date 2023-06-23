@@ -21,8 +21,9 @@
                 <td>{{employee.salary}}</td>
                 <td>{{employee.mobile}}</td>
                 <td>
-                 <button class="btn btn-warning btn-sm mx-2" routerLink="edit/{{ employee.id }}">Edit</button>
-                 <td> <button class="btn btn-warning btn-sm mx-2" routerLink="edit/{{ employee.id }}">Delete</button>
+                 <button class="btn btn-warning btn-sm mx-2" routerLink="edit/{{ employee.id }}"><i class="fas fa fa-edit"></i></button>
+                 <button class="btn btn-secondary btn-sm mx-2" routerLink="show/{{ employee.id }}"><i class="fas fa fa-eye"></i></button>
+                 <button class="btn btn-danger btn-sm mx-2" routerLink="delete/{{ employee.id }}"><i class="fas fa fa-trash"></i></button>
                 </td>
             </tr>
         </tbody>
