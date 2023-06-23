@@ -18,6 +18,7 @@ import { ContentComponent } from './content/content.component';
 import { ControlSiderComponent } from './control-sider/control-sider.component';
 import { MainFooterComponent } from './main-footer/main-footer.component';
 import { EditEmployeeComponent } from './home/edit-employee/edit-employee.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
  
  
 @NgModule({
@@ -34,7 +35,8 @@ import { EditEmployeeComponent } from './home/edit-employee/edit-employee.compon
     MainSiderbarComponent,
     ContentComponent,
     ControlSiderComponent,
-    MainFooterComponent  
+    MainFooterComponent,
+    ForgotPasswordComponent  
   ],
   imports: [
     BrowserModule,

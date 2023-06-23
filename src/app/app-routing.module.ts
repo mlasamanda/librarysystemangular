@@ -8,6 +8,7 @@ import { ListEmployeeComponent } from './home/list-employee/list-employee.compon
 import { CreateEmployeeComponent } from './home/create-employee/create-employee.component';
 import { EditEmployeeComponent } from './home/edit-employee/edit-employee.component';
 import { TemplateComponent } from './template/template.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 const routes: Routes = [
     {path:"",component:LoginComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
     {path:"list",component:ListEmployeeComponent},
     {path:"create",component:CreateEmployeeComponent},
     {path:"edit/:id",component:EditEmployeeComponent},
-    { path:"admin",component:TemplateComponent}
+    { path:"admin",component:TemplateComponent},
+    {path:"forgot",component:ForgotPasswordComponent}
      
 ]
 @NgModule({
