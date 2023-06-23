@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Employee } from '../employee';
 
 @Component({
   selector: 'app-forgot-password',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./forgot-password.component.css']
 })
 export class ForgotPasswordComponent {
-
+employee:Employee=new Employee();
 }
